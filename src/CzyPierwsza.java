@@ -1,7 +1,10 @@
 public class CzyPierwsza {
     public static void main(String[] args) {
+
         int liczba, dzielnik;
         boolean czyPierwsza;
+
+        // Szukamy liczby pierwszej
 
         for (liczba = 2; liczba <= 100; liczba++) {
             czyPierwsza = true;  //założenie ze kazda licba jest pierwsza
