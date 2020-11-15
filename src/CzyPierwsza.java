@@ -7,7 +7,7 @@ public class CzyPierwsza {
         // Szukamy liczby pierwszej
 
         for (liczba = 2; liczba <= 100; liczba++) {
-            czyPierwsza = true;  //założenie ze kazda licba jest pierwsza
+            czyPierwsza = true;  //założenie ze kazda liczba jest pierwsza
 
             for (dzielnik = 2; dzielnik < liczba; dzielnik++) {
 
